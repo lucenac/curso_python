@@ -24,21 +24,10 @@ Este repositório contém os arquivos de código desenvolvidos durante as aulas 
 
 ## Estrutura do Repositório:
 
-- `python_intermediario/`: Exemplos e práticas relacionadas ao Python Intermediário.
-
-- `poo/`: Códigos e exercícios que abordam os conceitos de Programação Orientada a Objetos.
-
-- `pyside6/`: Contém os arquivos relacionados ao desenvolvimento de interfaces gráficas com PySide6.
+- `Mod_Bas/`: Exemplos e práticas relacionadas ao Python Básico.
   
-- `sql/`: Armazena os scripts e códigos referentes ao uso de bancos de dados SQLite e MySQL.
+- `Mod_Mid/`: Exemplos e práticas relacionadas ao Python Intermediário.
 
-- `django/`: Projetos e aplicativos desenvolvidos com Django.
-
-- `tests/`: Arquivos de teste utilizando a abordagem TDD.
-
-- `structural_pattern_matching/`: Exemplos e práticas envolvendo Structural Pattern Matching.
-
-- `design_patterns/`: Implementações de Design Patterns discutidos no curso.
 
 ## Observações:
 
