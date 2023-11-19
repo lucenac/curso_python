@@ -31,10 +31,10 @@ acertos = 0
 for questao in range(len(perguntas)):
     print(f'Pergunta:', perguntas[questao]['Pergunta'])
     print('\nOpções:')
-    acessar = perguntas[questao]["Opções"]
+    acessar_dicionario = perguntas[questao]["Opções"]
     
-    for item in range(len(acessar)):
-        print(f'{item}) {acessar[item]}')
+    for item in range(len(acessar_dicionario)):
+        print(f'{item}) {acessar_dicionario[item]}')
 
     #entrada de usuário
     entrada = input('Escolha uma opção: ').replace(' ', '')
