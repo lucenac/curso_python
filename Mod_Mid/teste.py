@@ -1,6 +1,5 @@
-variavel = {
-    'Nome': 'João',
-    'Idade': 18,
-}
+lista = list(range(1,17))
 
-print(tuple(variavel.keys())[0])
+for i in range(len(lista)//2):
+    lista[i], lista[-1-i] = lista[-1-i], lista[i]
+print(lista)
