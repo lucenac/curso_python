@@ -11,20 +11,6 @@ Requisitos:
         [1, 4, 9, 8, ->9<-, 4, 8] (retorne 9)
     Se não encontrar duplicados na lista, retorne -1
 """
-def duplicatas(lista):
-    num_checados = set()
-    primeiro_dup = -1
-    for numero in lista:
-        if numero in num_checados:
-            primeiro_dup = numero
-            break
-        
-        
-        num_checados.add(numero)
-    return primeiro_dup
-
-
-
 lista_de_listas_de_inteiros = [
     [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
     [9, 1, 8, 9, 9, 7, 2, 1, 6, 8],
@@ -40,5 +26,20 @@ lista_de_listas_de_inteiros = [
     [10, 9, 8, 7, 6, 5, 4, 3, 2, 1],
 ]
 
+def encontra_duplicado(lista_de_inteiros):
+    numeros_checados = set()
+    primeiro_duplicado = -1
+    
+    for numero in lista_de_inteiros:
+        if numero in numeros_checados:
+            primeiro_duplicado = numero
+            break
+        numeros_checados.add(numero)
+    
+    return primeiro_duplicado
+    
+
 for lista in lista_de_listas_de_inteiros:
-    print(duplicatas(lista))
+    print(
+        encontra_duplicado(lista)
+    )
